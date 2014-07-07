@@ -1,6 +1,14 @@
-meal = 12.00
-tax = 7.50
-tip = 20.00
+# tip calculator2
+
+print "How much was the meal (in US dollars): "
+meal=Float(gets.chomp)
+
+print "tax percentage: "
+tax=Float(gets.chomp)
+
+print "tip percentage: "
+tip=Float(gets.chomp)
+
 
 tax_value = meal * ( tax / 100 )
 meal_with_tax = meal + tax_value
